@@ -1,0 +1,19 @@
+field,role
+item_id,Categorical input
+dept_id,Categorical input
+cat_id,Categorical input
+store_id,Categorical input
+state_id,Categorical input
+sales_lag_1w,Numeric input
+sales_lag_2w,Numeric input
+sales_lag_4w,Numeric input
+sales_mean_4w,Numeric input
+sales_mean_8w,Numeric input
+sales_std_4w,Numeric input
+last_observed_price,Numeric input
+price_age_days,Numeric input
+snap_days,Numeric input
+event_days,Numeric input
+target_month,Numeric input
+target_year,Numeric input
+target_units,Observed next-week label

@@ -1,0 +1,4 @@
+split,product_weeks,products,first_target_day,last_target_day,first_forecast_origin,last_forecast_origin
+train,2318,10,2011-03-28,2016-03-27,2011-03-27,2016-03-20
+validation,40,10,2016-03-28,2016-04-24,2016-03-27,2016-04-17
+test,40,10,2016-04-25,2016-05-22,2016-04-24,2016-05-15

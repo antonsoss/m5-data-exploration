@@ -1,0 +1,14 @@
+table,field,type,meaning,role_in_project
+Sales,id,Identifier,Product–store series with a competition suffix,Series key; do not model the suffix
+Sales / prices,item_id,Categorical,Anonymized product code,Join key and potential input
+Sales,dept_id / cat_id,Categorical,Department and category,Product hierarchy; possible inputs
+Sales / prices,store_id,Categorical,Anonymized store code,Join key and potential input
+Sales,state_id,Categorical,"CA, TX, or WI",Location group; select the relevant SNAP flag
+Sales,d_1 … d_1941,Nonnegative integer,Observed daily units sold,Past inputs; future observations construct labels
+Calendar,d / date,Key / date,Sales-day code and actual date,Daily join and time ordering
+Calendar / prices,wm_yr_wk,Week key,Walmart retail week identifier,Price join; not an ordinary ISO week number
+Calendar,weekday / wday / month / year,Calendar fields,Day and seasonal context,Known calendar inputs
+Calendar,event_name_1/2 / event_type_1/2,Categorical; optional,Up to two listed events per date,Known calendar inputs; blanks often mean no event
+Calendar,snap_CA / snap_TX / snap_WI,Binary 0/1,SNAP purchasing-day indicators by state,Use the store's matching state flag
+Prices,sell_price,Positive numeric; USD,Weekly average selling price for a product and store,Historical or planned-price input; revenue assumption
+Submission,F1 … F28,Forecast placeholders,Competition's 28 forecast positions,Not observed demand or model inputs

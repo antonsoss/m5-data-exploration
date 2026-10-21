@@ -1,0 +1,7 @@
+measure,count
+All historical product–store-days,59181090
+Days without a matching weekly price,12299413
+"Of those, before the first recorded price week",12299413
+"Of those, after or within recorded price history",0
+Positive sales observations without a price,0
+Zero sales observations with a price,27942406

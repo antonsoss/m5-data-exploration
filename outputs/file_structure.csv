@@ -1,0 +1,6 @@
+file,rows,columns,record_grain,start,end
+sales_train_evaluation.csv,30490,1947,Product–store,2011-01-29,2016-05-22
+sales_train_validation.csv,30490,1919,Product–store; overlap checked below,2011-01-29,2016-04-24
+calendar.csv,1969,14,Day,2011-01-29,2016-06-19
+sell_prices.csv,6841121,4,Product–store–week,Join through calendar,Join through calendar
+sample_submission.csv,60980,29,Forecast series,F1,F28

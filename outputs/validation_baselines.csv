@@ -1,0 +1,3 @@
+baseline,validation_product_weeks,MAE_units,RMSE_units,WAPE
+Previous week,40,39.475,66.48138837298751,0.19503458498023715
+Trailing 4-week mean,40,35.7125,57.576389475200685,0.17644515810276679

@@ -1,0 +1,12 @@
+{
+  "notebook_cells": 37,
+  "executed_code_cells": 21,
+  "embedded_figures": 8,
+  "selected_daily_rows": 19410,
+  "weekly_modeling_rows": 2398,
+  "target_and_lag_reconciliations": "All rows match independently grouped daily sales",
+  "price_timing_check": "Every feature price is from a completed retail week",
+  "source_profile_reconciliation": "Matches earlier independently calculated M5 profile",
+  "warnings_or_errors": 0,
+  "team": "Group 2 - MIA5130A Systems Optimization and Management"
+}

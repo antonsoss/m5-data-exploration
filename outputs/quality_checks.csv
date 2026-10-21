@@ -1,0 +1,16 @@
+check,observed,passed
+Sales missing cells,0,True
+Sales negative unit counts,0,True
+Duplicate sales product–store keys,0,True
+Duplicate sales id values,0,True
+Duplicate calendar d keys,0,True
+Duplicate calendar dates,0,True
+Calendar dates consecutive,True,True
+Historical days absent from calendar,0,True
+Duplicate product–store–week price keys,0,True
+Price missing cells,0,True
+Nonpositive listed prices,0,True
+SNAP values restricted to 0 and 1,True,True
+Product has one department and category,True,True
+Store belongs to one state,True,True
+Validation overlaps exactly,True,True

@@ -1,0 +1,111 @@
+{
+  "dataset_source": "https://www.kaggle.com/competitions/m5-forecasting-accuracy/data",
+  "files": [
+    {
+      "file": "sales_train_evaluation.csv",
+      "rows": 30490,
+      "columns": 1947,
+      "record_grain": "Product–store",
+      "start": "2011-01-29",
+      "end": "2016-05-22"
+    },
+    {
+      "file": "sales_train_validation.csv",
+      "rows": 30490,
+      "columns": 1919,
+      "record_grain": "Product–store; overlap checked below",
+      "start": "2011-01-29",
+      "end": "2016-04-24"
+    },
+    {
+      "file": "calendar.csv",
+      "rows": 1969,
+      "columns": 14,
+      "record_grain": "Day",
+      "start": "2011-01-29",
+      "end": "2016-06-19"
+    },
+    {
+      "file": "sell_prices.csv",
+      "rows": 6841121,
+      "columns": 4,
+      "record_grain": "Product–store–week",
+      "start": "Join through calendar",
+      "end": "Join through calendar"
+    },
+    {
+      "file": "sample_submission.csv",
+      "rows": 60980,
+      "columns": 29,
+      "record_grain": "Forecast series",
+      "start": "F1",
+      "end": "F28"
+    }
+  ],
+  "observed_sales_dates": {
+    "start": "2011-01-29",
+    "end": "2016-05-22"
+  },
+  "sales": {
+    "series": 30490,
+    "days": 1941,
+    "daily_observations": 59181090,
+    "zero_fraction": 0.6799776584040612,
+    "zero_fraction_with_listed_price": 0.5960197626889499,
+    "missing_cells": 0,
+    "negative_counts": 0,
+    "duplicate_item_store_keys": 0
+  },
+  "prices": {
+    "rows": 6841121,
+    "minimum_USD": 0.01,
+    "maximum_USD": 107.32,
+    "missing_historical_join_days": 12299413,
+    "missing_historical_join_fraction": 0.20782673992655423,
+    "missing_days_before_first_recorded_price_week": 12299413,
+    "positive_sales_without_price": 0,
+    "duplicate_keys": 0
+  },
+  "overlap": {
+    "same_sales": true,
+    "same_ids": true,
+    "same_metadata": true
+  },
+  "illustrative_scope": {
+    "store": "CA_1",
+    "category": "FOODS",
+    "products": [
+      "FOODS_3_090",
+      "FOODS_3_586",
+      "FOODS_3_120",
+      "FOODS_3_252",
+      "FOODS_3_064",
+      "FOODS_3_587",
+      "FOODS_3_282",
+      "FOODS_3_714",
+      "FOODS_3_681",
+      "FOODS_3_499"
+    ],
+    "selection_uses_training_only": true,
+    "train_end": "2016-03-27",
+    "validation_end": "2016-04-24",
+    "test_end": "2016-05-22"
+  },
+  "quality_checks_all_passed": true,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.11.2",
+    "ipykernel": "7.4.0",
+    "nbformat": "5.11.1",
+    "python": "3.12.14"
+  },
+  "source_md5": {
+    "calendar.csv": "3ffeab2991b0c8e861d008b39ea4c95c",
+    "sales_train_evaluation.csv": "b806dfc9f30a745102b708c09951f6aa",
+    "sales_train_validation.csv": "26a366a25beb57b0a8f4c7b148758f94",
+    "sell_prices.csv": "08c591caa99e55daf3e0ccac913f7c85",
+    "sample_submission.csv": "c281a69d7c011274899d92020a66e25b"
+  },
+  "team": "Group 2 - MIA5130A Systems Optimization and Management"
+}
